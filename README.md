@@ -7,6 +7,7 @@
 3. install php8.0 (ubuntu - `sudo apt-get install php8.0`)
 4. enable extensions dom and mbstring `sudo apt-get install php8.0-dom` and `sudo apt-get install php8.0-mbstring`
 5. install [Composer](https://getcomposer.org/doc/00-intro.md), follow installation instructions according to your operating system
+5. run `composer require laravel/homestead --dev`
 6. add `192.168.10.10  upload-file-app-backend.local` to /etc/hosts file
 7 position your self to project root
 8. run `vagrant up`
