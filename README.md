@@ -4,8 +4,8 @@
 
 1. install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), follow installation instructions according to your operating system (version 6.1.16)
 2. install [Vagrant](https://www.vagrantup.com/downloads.html), follow installation instructions according to your operating system (version 2.2.6)
-3. install php8.0 (ubuntu - `sudo apt-get install php8.0`)
-4. enable extensions dom and mbstring `sudo apt-get install php8.0-dom` and `sudo apt-get install php8.0-mbstring`
+3. install [PHP8.0](https://www.php.net/downloads.php) follow installation instructions according to your operating system
+4. enable extensions dom and mbstring
 5. install [Composer](https://getcomposer.org/doc/00-intro.md), follow installation instructions according to your operating system
 6. run `composer require laravel/homestead --dev`
 7. add `192.168.10.10  upload-file-app-backend.local` to /etc/hosts file
